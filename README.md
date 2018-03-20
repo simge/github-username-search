@@ -1,24 +1,30 @@
-# README
+# Github Username Find
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Bu repo ;
 
-Things you may want to cover:
+- aranan kullanıcının githubta bulunup bulunmadığını 
 
-* Ruby version
+- kullanıcının bulunması dahilinde kullanıcı github sayfasına yönlendirilme işlevini 
 
-* System dependencies
+- aranan kullanıcının aranma sayısının listelenmesi işlevini görür.
 
-* Configuration
 
-* Database creation
 
-* Database initialization
+# Kurulum
 
-* How to run the test suite
+Bu proje Rails 5.1 versiyonunu desteklemektedir.
 
-* Services (job queues, cache servers, search engines, etc.)
 
-* Deployment instructions
+- Repoyu bilgisayarımıza clone ediyoruz.
 
-* ...
+> $ git clone git@github.com:simgesen/github-username-search.git
+
+
+- Cloneladığımız dizine geçiş yapıyoruz.
+
+> $ cd github-username-search
+
+
+- Projenin localhost:3000 de çalışması için bu satırı yazıyoruz.
+
+> $ bundle && rails db:create && rails db:migrate && rails s 
