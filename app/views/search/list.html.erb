@@ -1,2 +1,19 @@
-<h1>Search#list</h1>
-<p>Find me in app/views/search/list.html.erb</p>
+<h1>Arananlar Listesi</h1>
+<table class="table table-bordered">
+  <thead>
+    <tr>
+      <th> Username</th>
+      <th> Count</th>
+    </tr>
+  </thead>
+  <tbody>
+  <% @all_list.each do |object| %>
+
+    <tr>
+      <td> <%= object.username %> </td>
+      <td><%= object.count %> </td>
+    
+    </tr>
+   <% end %>
+  </tbody>
+</table>
