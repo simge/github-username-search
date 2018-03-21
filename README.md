@@ -8,6 +8,9 @@ Bu repo ;
 
 - aranan kullanıcının aranma sayısının listelenmesi işlevini görür.
 
+# Özellikler
+
+- Bu projede kullanılan tema [adresinden](http://www.layoutit.com/build) alınmıştır.
 
 
 # Kurulum
@@ -25,15 +28,14 @@ Bu proje Rails 5.1 versiyonunu desteklemektedir.
 > $ cd github-username-search
 
 
-- Terminale paketlerin yüklenmesi, database oluşum ve ayarları ve projenin başlatılması için aşağıdaki satır yazılır.
+- Terminale paketlerin yüklenmesi, database oluşum ve ayarları ve projenin başlatılması için aşağıdaki kod satırı yazılır.
 
 > $ bundle && rails db:create && rails db:migrate && rails s 
 
 
-- Projenin çalışması için tarayıcıya aşağıdaki satır yazılır.
+- Projenin çalışması için tarayıcıya ;
 
 > localhost:3000 
 
-
-
+yazılarak proje localde ayağa kaldırılmış olur.
 
