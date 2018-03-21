@@ -15,16 +15,25 @@ Bu repo ;
 Bu proje Rails 5.1 versiyonunu desteklemektedir.
 
 
-- Repoyu bilgisayarımıza clone ediyoruz.
+- Repo bilgisayara clonelanır.
 
 > $ git clone git@github.com:simgesen/github-username-search.git
 
 
-- Cloneladığımız dizine geçiş yapıyoruz.
+- Clonelanan dizine geçiş yapılır.
 
 > $ cd github-username-search
 
 
-- Projenin localhost:3000 de çalışması için bu satırı yazıyoruz.
+- Terminale paketlerin yüklenmesi, database oluşum ve ayarları ve projenin başlatılması için aşağıdaki satır yazılır.
 
 > $ bundle && rails db:create && rails db:migrate && rails s 
+
+
+- Projenin çalışması için tarayıcıya 
+
+> localhost:3000 
+
+yazılır.
+
+
