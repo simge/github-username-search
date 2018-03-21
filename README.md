@@ -18,12 +18,12 @@ Bu repo ;
 Bu proje Rails 5.1 versiyonunu desteklemektedir.
 
 
-- Repo bilgisayara clonelanır.
+- Repo bilgisayara kopyalanır.
 
 > $ git clone git@github.com:simgesen/github-username-search.git
 
 
-- Clonelanan dizine geçiş yapılır.
+- Kopyalanan dizine geçiş yapılır.
 
 > $ cd github-username-search
 
