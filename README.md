@@ -1,4 +1,4 @@
-# Github Username Find
+# Github Username Search
 
 Bu repo ;
 
@@ -30,10 +30,10 @@ Bu proje Rails 5.1 versiyonunu desteklemektedir.
 > $ bundle && rails db:create && rails db:migrate && rails s 
 
 
-- Projenin çalışması için tarayıcıya 
+- Projenin çalışması için tarayıcıya aşağıdaki satır yazılır.
 
 > localhost:3000 
 
-yazılır.
+
 
 
