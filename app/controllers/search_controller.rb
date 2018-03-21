@@ -8,7 +8,7 @@ class SearchController < ApplicationController
     @username =  params[:search][:username]
     @github_url =  "https://github.com/"+@username
     
-    # Kullanılan ubuntu dağıtımımla ilgili ssh kullanılmında çıkan hata için yazılmış kod satırları vardır.
+    # Kullanılan ubuntu dağıtımımla ilgili ssh kullanımında çıkan hata için yazılmış kod satırları mevcuttur.
     begin
       get_github_response  = RestClient::Request.execute(
         :url => @github_url, 
@@ -18,7 +18,8 @@ class SearchController < ApplicationController
     rescue RestClient::ExceptionWithResponse => e
       e.response
     end
-
+    
+    # Kullanıcı bulunması dahilinde sayacı bir artırıp kaydeden kod bloğudur.
     test = Search.find_by_username(@username)
     if test 
       test.count +=1
@@ -33,7 +34,7 @@ class SearchController < ApplicationController
       redirect_to @github_url unless  e
 
     end
-
+    # Aranan kullanıcıların listelenmesini sağlayan fonksiyondur.
   def list
     @all_list = Search.all
   end
