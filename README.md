@@ -1,5 +1,7 @@
 # Github Username Search
 
+
+
 Bu repo ;
 
 - aranan kullanıcının githubta bulunup bulunmadığını 
@@ -18,7 +20,7 @@ Bu repo ;
 Bu proje Rails 5.1 versiyonunu desteklemektedir.
 
 
-- Repo bilgisayara kopyalanır.
+- Repo bilgisayara kopyalanır. :computer:
 
 > $ git clone git@github.com:simgesen/github-username-search.git
 
@@ -33,7 +35,7 @@ Bu proje Rails 5.1 versiyonunu desteklemektedir.
 > $ bundle && rails db:create && rails db:migrate && rails s 
 
 
-- Projenin çalışması için tarayıcıya ;
+- Projenin çalışması için tarayıcıya ; :link:
 
 > localhost:3000 
 
