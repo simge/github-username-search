@@ -55,7 +55,7 @@ MethodLength:
   Max: 250
 
 AllCops:
-  TargetRubyVersion: '2.4.1'
+  TargetRubyVersion: '2.4.2'
   Include:
     - '**/Rakefile'
     - '**/config.ru'
