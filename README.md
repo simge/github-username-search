@@ -34,6 +34,7 @@ Bu proje Rails 5.1 versiyonunu desteklemektedir.
 
 > $ bundle && rails db:create && rails db:migrate && rails s 
 
+- Eğer bundle hatası alırsanız ; $ bundle update diyerek üstteki satırı çalıştırmaya devam edebilirsiniz.
 
 - Projenin çalışması için tarayıcıya ; :link:
 
